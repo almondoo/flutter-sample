@@ -1,16 +1,23 @@
 # sample
 
-A new Flutter project.
+メモアプリ
+内部ストレージに保存して使う
 
-## Getting Started
+## ページ
 
-This project is a starting point for a Flutter application.
+- ログイン
+- ホーム(メモ一覧)
+- メモ詳細
 
-A few resources to get you started if this is your first Flutter project:
+## 機能
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- ログイン
+- メモ作成
+- メモ更新
+- メモ削除
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ログイン関して
+
+ログイン機能だがどこかで認証はしない。  
+内部ストレージでパスワードがあればそれで認証する。  
+なければパスワードを設定する。
