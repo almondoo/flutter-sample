@@ -21,6 +21,8 @@ class MemoPage extends HookConsumerWidget {
     // HACK: nullチェックしているが中でidがint?からintにキャストされない
     if (id != null && id is int) {
       _item = ref.read(memoProvider.notifier).findByID(id as int);
+      _title = _item.title;
+      _content = _item.content;
     }
 
     return Scaffold(
