@@ -12,11 +12,6 @@ class HomePage extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final _items = ref.watch(memoProvider);
 
-    useEffect(() {
-      print('useEffect');
-      ref.read(memoProvider.notifier).setList();
-    }, []);
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('HOME'),
