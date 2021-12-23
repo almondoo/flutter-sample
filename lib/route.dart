@@ -5,6 +5,7 @@ import 'package:sample/domain/repository/db_viewer_repository.dart';
 import 'package:sample/pages/home/index.dart';
 import 'package:sample/pages/login/index.dart';
 import 'package:sample/pages/memo/detail.dart';
+import 'package:sample/pages/memo/iphone.dart';
 
 class RouteGenerator {
   static const String login = '/login';
@@ -29,7 +30,7 @@ class RouteGenerator {
 
       case memoDetail:
         final args = settings.arguments as MemoDetailArguments;
-        page = MemoPage(id: args.id);
+        page = MemoIphoneLikePage(id: args.id);
         break;
 
       case database:
