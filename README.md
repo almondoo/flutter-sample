@@ -19,3 +19,7 @@
 
 ## ログイン関して
 「password」を入力 → ログイン  
+
+## 試す  
+1. Vscodeで **View IOS simulators** を起動  
+2. デバッグを実行する  
