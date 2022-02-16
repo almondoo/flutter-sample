@@ -34,7 +34,7 @@ class LoginPage extends HookConsumerWidget {
                 TextFormField(
                   decoration: InputDecoration(
                     labelText: 'Password',
-                    hintText: 'パスワードを入力してください。',
+                    hintText: '「password」と入力してください。',
                     suffixIcon: IconButton(
                       icon: Icon(
                         _isObscure ? Icons.visibility : Icons.visibility_off,
